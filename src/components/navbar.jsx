@@ -2,8 +2,12 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div
-      style={{ backgroundColor: "#415a77" }}
-      className="navbar navbar-expand-lg py-3 "
+      style={{
+        backgroundColor: "#415a77",
+        borderBottomLeftRadius: "40px",
+        borderBottomRightRadius: "40px",
+      }}
+      className="navbar navbar-expand-lg pb-3 "
     >
       <div className="container text-white">
         <a href="#" className="navbar-brand text-white ">
@@ -11,12 +15,11 @@ const Navbar = () => {
         </a>
         <button
           type="button"
-          className=" btn text-white"
+          className="navbar-toggler"
           data-bs-target="#navnavv"
           data-bs-toggle="collapse"
-          style={{ color: "red" }}
         >
-          <i class="fa-solid fa-bars fs-3"></i>{" "}
+          <span className="navbar-toggler-icon text-white"></span>
         </button>
         <div
           className="collapse navbar-collapse justify-content-center"

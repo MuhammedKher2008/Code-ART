@@ -1,7 +1,76 @@
-
 :root {
-  --background-color: #0e131f;
-  --primary-color: #1b263b;
-  --accent-color: #415a77;
-  --text-color: #e0e1dd;
+  --background-color: #1E1E24; /* Koyu antrasit */
+  --primary-color: #121d29;   /* Turuncu */
+  --accent-color: #FFD2A5;    /* Açık turuncu */
+  --text-color: #E5E5E5;      /* Açık gri */
+}
+:root {
+  --background-color: #0D0D0D; /* Saf siyah */
+  --primary-color: #0DF2C9;    /* Neon yeşil */
+  --accent-color: #C400FF;     /* Neon mor */
+  --text-color: #E6E6E6;       /* Beyaza yakın gri */
+}
+:root {
+  --background-color: #1B1B1B; /* Kömür siyahı */
+  --primary-color: #575757;    /* Orta gri */
+  --accent-color: #A6A6A6;     /* Açık gri */
+  --text-color: #FFFFFF;       /* Beyaz */
+}
+:root {
+  --background-color: #222831; /* Koyu mavi-gri */
+  --primary-color: #393E46;    /* Kömür mavi */
+  --accent-color: #00ADB5;     /* Canlı turkuaz */
+  --text-color: #EEEEEE;       /* Yumuşak beyaz */
+}
+:root {
+  --background-color: #181818; /* Saf siyah */
+  --primary-color: #E63946;    /* Canlı kırmızı */
+  --accent-color: #F1FA3C;     /* Parlak sarı */
+  --text-color: #F8F9FA;       /* Açık beyaz */
+}
+:root {
+  --background-color: #232946; /* Lacivert */
+  --primary-color: #4ECCA3;    /* Nane yeşili */
+  --accent-color: #EEBBC3;     /* Hafif pembe */
+  --text-color: #FFFFFE;       /* Saf beyaz */
+}
+:root {
+  --background-color: #2D2D2A; /* Koyu taş grisi */
+  --primary-color: #FF5700;    /* Turuncu */
+  --accent-color: #A9A9A9;     /* Açık gri */
+  --text-color: #FFFFFF;       /* Beyaz */
+}
+:root {
+  --background-color: #121212;
+  --primary-color: #FFD700;
+  --accent-color: #B8860B;
+  --text-color: #FFFFFF;
+}
+:root {
+  --background-color: #1F1F1F;
+  --primary-color: #4ECCA3;
+  --accent-color: #A1A1A1;
+  --text-color: #EAEAEA;
+}
+:root {
+  --background-color: #121212;
+  --primary-color: #BB86FC;
+  --accent-color: #03DAC6;
+  --text-color: #FFFFFF;
+}
+:root {
+  --background-color: #0F172A;
+  --primary-color: #1E293B;
+  --accent-color: #38BDF8;
+  --text-color: #E2E8F0;
+}
+:root {
+  --background-color: #1A1A1D;
+  --primary-color: #C3073F;
+  --accent-color: #6F2232;
+  --text-color: #FFFFFF;
+}
+
+.mer{
+  color: rgb(65, 90, 119);
 }
