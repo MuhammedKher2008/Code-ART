@@ -3,9 +3,7 @@ const Navbar = () => {
   return (
     <div
       style={{
-        backgroundColor: "#415a77",
-        borderBottomLeftRadius: "40px",
-        borderBottomRightRadius: "40px",
+        background: "linear-gradient(45deg , #30496b , #30b8d2)",
       }}
       className="navbar navbar-expand-lg pb-3 "
     >
@@ -37,15 +35,7 @@ const Navbar = () => {
                 Course
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link text-white mx-3 fs-5"
-                to="/CoursesDetails"
-              >
-                {" "}
-                Coure Details
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link className="nav-link text-white mx-3 fs-5" to="/Login">
                 {" "}
@@ -53,6 +43,10 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+
+          <Link to="/Chekout">
+            <i class="fa-solid fa-basket-shopping text-white mx-3 mt-3 fs-5"></i>
+          </Link>
         </div>
       </div>
     </div>

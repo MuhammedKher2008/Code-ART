@@ -26,7 +26,7 @@ function Home() {
                   style={{ backgroundColor: "#00adb5" }}
                 >
                   <Link
-                    to="/courses"
+                    to="/login"
                     className="text-white text-decoration-none"
                   >
                     subscribe
@@ -42,7 +42,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container mt-5 ">
         <div className="row text-center">
           <div className="col-md-12">
             <span
@@ -67,7 +67,7 @@ function Home() {
             </h3>
           </div>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mt-5">
           <div className="col-md-4 mt-5">
             <h3> Learn, Build, Innovate with Code_Art</h3>
             <p className="mt-5">
@@ -78,7 +78,7 @@ function Home() {
               community, your learning journey is in the best hands.
             </p>
           </div>
-          <div className="col-md-4 ms-3 mt-5">
+          <div className="col-md-4 ms-5 mt-5">
             <div class="accordion my-3">
               <div class="accordion-item">
                 <div class="accordion-header">
@@ -252,13 +252,13 @@ function Home() {
                   borderTop: "none",
                 }}
               >
-                <a
-                  href="#"
+                <Link
+                  to="/login"
                   class="btn text-white my-2"
                   style={{ backgroundColor: "#00adb5" }}
                 >
                   read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -287,13 +287,13 @@ function Home() {
                   borderTop: "none",
                 }}
               >
-                <a
-                  href="#"
+                <Link
+                  to="/login"
                   class="btn text-white my-2"
                   style={{ backgroundColor: "#00adb5" }}
                 >
                   read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -322,13 +322,13 @@ function Home() {
                   borderTop: "none",
                 }}
               >
-                <a
-                  href="#"
+                <Link
+                  to="/login"
                   class="btn text-white my-2"
                   style={{ backgroundColor: "#00adb5" }}
                 >
                   read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -360,13 +360,13 @@ function Home() {
                   borderTop: "none",
                 }}
               >
-                <a
-                  href="#"
+                <Link
+                  to="/login"
                   class="btn text-white my-2"
                   style={{ backgroundColor: "#00adb5" }}
                 >
                   read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -395,13 +395,13 @@ function Home() {
                   borderTop: "none",
                 }}
               >
-                <a
-                  href="#"
+                <Link
+                  to="/login"
                   class="btn text-white my-2"
                   style={{ backgroundColor: "#00adb5" }}
                 >
                   read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -430,13 +430,13 @@ function Home() {
                   borderTop: "none",
                 }}
               >
-                <a
-                  href="#"
+                <Link
+                  to="/login"
                   class="btn text-white my-2"
                   style={{ backgroundColor: "#00adb5" }}
                 >
                   read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -447,7 +447,7 @@ function Home() {
             >
               <div className="mt-3">
                 <i
-                  class="fa-brands fa-database  p-3 fs-1 rounded-pill d-inline"
+                  class="fa-solid fa-database  p-3 fs-1 rounded-pill d-inline"
                   style={{ color: "#415a77" }}
                 ></i>
               </div>
@@ -465,19 +465,19 @@ function Home() {
                   borderTop: "none",
                 }}
               >
-                <a
-                  href="#"
+                <Link
+                  to="/login"
                   class="btn text-white my-2"
                   style={{ backgroundColor: "#00adb5" }}
                 >
                   read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container pt-5">
         <div className="row text-center">
           <div className="col-md-12">
             <span
@@ -502,7 +502,7 @@ function Home() {
             </h3>
           </div>
         </div>
-        <div className="row mt-5 gap-5">
+        <div className="row mt-5 gap-5 ">
           <div className="col-md-5 justify-content-center">
             <form action="">
               <div className="row ">
@@ -578,9 +578,12 @@ function Home() {
                 </div>
                 <div className="col-md-4">
                   <h2 className="mt-3">send message</h2>
-                  <div class="input-group mt-3">
+                  <div class="input-group mt-4">
                     <input class="form-control" type="text" name="" id="" />
-                    <button class="btn text-white " style={{ backgroundColor: "#00adb5" }}>
+                    <button
+                      class="btn text-white "
+                      style={{ backgroundColor: "#00adb5" }}
+                    >
                       button
                     </button>
                   </div>
